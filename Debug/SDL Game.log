@@ -1,0 +1,47 @@
+﻿Build started 03/11/2015 23:19:37.
+Project "C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\SDL Game.vcxproj" on node 2 (Build target(s)).
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2D Physics - class 3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Main.cpp ModuleAudio.cpp ModuleInput.cpp ModulePhysics.cpp ModulePlayer.cpp ModuleRender.cpp ModuleSceneIntro.cpp ModuleTextures.cpp ModuleWindow.cpp
+  ModulePlayer.cpp
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(40): warning C4305: '=' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(41): warning C4305: '=' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(188): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(189): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(190): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(196): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(197): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(198): warning C4305: 'argument' : truncation from 'double' to 'float32'
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\moduleplayer.cpp(224): warning C4244: 'argument' : conversion from 'float32' to 'int', possible loss of data
+  ModulePhysics.cpp
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\modulephysics.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+c:\users\laura ripoll\desktop\pb\laura_ripoll_teresa_miranda_para_tu_body\laura_ripoll_teresa_miranda\modulephysics.cpp(175): warning C4018: '<' : signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  ModuleWindow.cpp
+  ModuleTextures.cpp
+  ModuleSceneIntro.cpp
+  ModuleRender.cpp
+  ModuleInput.cpp
+  ModuleAudio.cpp
+  Main.cpp
+  Application.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\Debug\Laura_Ripoll_Teresa_Miranda.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\Debug\Laura_Ripoll_Teresa_Miranda.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\Debug\Laura_Ripoll_Teresa_Miranda.lib" /MACHINE:X86 Debug\Application.obj
+  Debug\log.obj
+  Debug\Main.obj
+  Debug\ModuleAudio.obj
+  Debug\ModuleInput.obj
+  Debug\ModulePhysics.obj
+  Debug\ModulePlayer.obj
+  Debug\ModuleRender.obj
+  Debug\ModuleSceneIntro.obj
+  Debug\ModuleTextures.obj
+  Debug\ModuleWindow.obj
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  SDL Game.vcxproj -> C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\Debug\Laura_Ripoll_Teresa_Miranda.exe
+Done Building Project "C:\Users\Laura Ripoll\Desktop\PB\Laura_Ripoll_Teresa_Miranda_PARA_TU_BODY\Laura_Ripoll_Teresa_Miranda\SDL Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.47
